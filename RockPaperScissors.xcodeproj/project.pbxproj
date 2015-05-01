@@ -13,6 +13,7 @@
 		BB9DA5761AF2EB7D0096CE46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9DA5751AF2EB7D0096CE46 /* Images.xcassets */; };
 		BB9DA5791AF2EB7D0096CE46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB9DA5771AF2EB7D0096CE46 /* LaunchScreen.xib */; };
 		BB9DA5851AF2EB7D0096CE46 /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DA5841AF2EB7D0096CE46 /* RockPaperScissorsTests.swift */; };
+		BB9DA58F1AF40F5F0096CE46 /* GameResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9DA58E1AF40F5F0096CE46 /* GameResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BB9DA57E1AF2EB7D0096CE46 /* RockPaperScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9DA5831AF2EB7D0096CE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB9DA5841AF2EB7D0096CE46 /* RockPaperScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsTests.swift; sourceTree = "<group>"; };
+		BB9DA58E1AF40F5F0096CE46 /* GameResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				BB9DA5721AF2EB7D0096CE46 /* Main.storyboard */,
 				BB9DA5751AF2EB7D0096CE46 /* Images.xcassets */,
 				BB9DA5771AF2EB7D0096CE46 /* LaunchScreen.xib */,
+				BB9DA58E1AF40F5F0096CE46 /* GameResultsViewController.swift */,
 				BB9DA56C1AF2EB7D0096CE46 /* Supporting Files */,
 			);
 			path = RockPaperScissors;
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB9DA5711AF2EB7D0096CE46 /* ViewController.swift in Sources */,
+				BB9DA58F1AF40F5F0096CE46 /* GameResultsViewController.swift in Sources */,
 				BB9DA56F1AF2EB7D0096CE46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
